@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.google.drive.coreTypes">
+
+	<require>org.nuxeo.ecm.core.CoreExtensions</require>
+	
+	<extension point="doctype" target="org.nuxeo.ecm.core.schema.TypeService">
+	
+	    <facet name="EditableInGoogleDrive">
+	      <schema name="googledrive"/>
+	    </facet>
+	    
+	    <doctype extends="Document" name="File">
+	      <schema name="common"/>
+	      <schema name="file"/>
+	      <schema name="dublincore"/>
+	      <schema name="uid"/>
+	      <schema name="files"/>
+	      <facet name="Downloadable"/>
+	      <facet name="Versionable"/>
+	      <facet name="Publishable"/>
+	      <facet name="Commentable"/>
+	      <facet name="HasRelatedText"/>
+	      <facet name="EditableInGoogleDrive"/>
+	    </doctype>
+	</extension>
+</component>
+    

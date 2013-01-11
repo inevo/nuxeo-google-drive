@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.google.drive.GoogleDriveService">
+
+  <documentation>
+    Google Drive Service
+
+    @author Nelson Silva (nelson.silva@inevo.pt)
+  </documentation>
+
+  <implementation
+    class="org.nuxeo.google.drive.GoogleDriveServiceImpl" />
+
+  <service>
+    <provide
+      interface="org.nuxeo.google.drive.api.GoogleDriveService" />
+  </service>
+
+<extension-point name="configuration">
+    <object class="org.nuxeo.google.drive.ConfigurationDescriptor" />
+  </extension-point>
+</component>

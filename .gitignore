@@ -1,0 +1,8 @@
+target
+lib
+bin
+pojo-bin
+seam-bin
+.classpath
+.project
+*.p12

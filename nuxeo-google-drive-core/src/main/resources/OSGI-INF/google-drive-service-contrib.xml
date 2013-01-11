@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.google.drive.service.contrib">
+
+  <extension target="org.nuxeo.google.drive.GoogleDriveService" point="configuration">
+    <configuration>
+      <serviceEmail>69358935766@developer.gserviceaccount.com</serviceEmail>
+	  <accountEmail>nelson.silva@gmail.com</accountEmail>
+	  <privateKey>/home/nfgs/Programacao/Nuxeo/workspace/nuxeo-google-drive-core/f6c4e2e588aedcf271352993c18ae6cc523be4c0-privatekey.p12</privateKey>
+    </configuration>
+  </extension>
+
+</component>
